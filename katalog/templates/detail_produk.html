@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Produk</title>
+</head>
+<body>
+    {% if produk %}
+        <h1>{{ produk.nama }}</h1>
+        <p><strong>Deskripsi:</strong> {{ produk.deskripsi }}</p>
+        <p><strong>Harga:</strong> {{ produk.harga }}</p>
+    {% else %}
+        <p>Produk tidak ditemukan.</p>
+    {% endif %}
+    <a href="/produk/">Kembali ke Daftar Produk</a>
+</body>
+</html>
