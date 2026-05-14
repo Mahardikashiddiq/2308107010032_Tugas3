@@ -1,3 +1,5 @@
+# Mahardika Shiddiq Anshari
+# 2308107010032
 
 # Website Katalog Sederhana dengan Django
 
