@@ -24,10 +24,11 @@ Website ini merupakan aplikasi katalog produk sederhana yang dikembangkan menggu
 4. Pengguna juga dapat mengunjungi halaman kontak untuk mendapatkan informasi kontak pengelola.
 
 ## Cara Menjalankan Website
-1. Pastikan sudah menginstall Python 3 dan pip.
-2. Aktifkan virtual environment: `venv\Scripts\activate` (Windows)
-3. Jalankan server Django dengan perintah: `python manage.py runserver`
-4. Buka browser dan akses `http://127.0.0.1:8000/`
+1. Pastikan sudah menginstall Python dan pip.
+2. Membuat virtual environtment menggunakan `python -m venv venv`
+3. Aktifkan virtual environment: `venv\Scripts\activate` (Windows)
+4. Jalankan server Django dengan perintah: `python manage.py runserver`
+5. Buka browser dan akses `http://127.0.0.1:8000/`
 
 ## Struktur URL
 - `/` : Homepage
